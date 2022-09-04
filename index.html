@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     
+
+      <div id="myDIV" class="header">
+        <p id="date"></p>
+        <h2 style="margin:5px">My To Do List</h2>
+        <input type="text" id="myInput" placeholder="Take the garbage out">
+        <span onclick="newElement()" class="addBtn">Add</span>
+      </div>
+      
+      <ul id="myUL">
+        <h3>Folyamatban</h3>
+         <p id="counts"></p>
+        <li>Séta Marcanggal</li>
+        <li>Js tanulás</li>
+        <li>Még egy kis Js tanulás</li>
+        <li>Js</li>
+        <li>Marcanggal játszani</li>
+      </ul>
+      
+      
+      <ul id="myUL2">
+        <h3>Kész</h3>
+        <li class="checked">Pay bills</li>
+      </ul>
+      
+      
+      <button class='button' onclick="myShow()" >Elrejtés</button>
+      <button class='button' onclick="myClear()" >Törlés</button>
+      <button class='button' onclick="alert('Szuper ügyes vagy!')">Kész</button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
